@@ -1,0 +1,23 @@
+{
+  "name": "TestUnity_Demo",
+  "version": "1.0.0",
+  "description": "Demo automation for testUnity_demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheetalbambarde/TestUnity_Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheetalbambarde/TestUnity_Demo/issues"
+  },
+  "homepage": "https://github.com/sheetalbambarde/TestUnity_Demo#readme",
+  "devDependencies": {
+    "cypress": "^12.4.1"
+  }
+}
