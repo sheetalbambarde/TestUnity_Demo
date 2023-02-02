@@ -50,22 +50,23 @@ it('login Successfully and request quotation', function(){
 
 
    })
-// it('Retrieve Quotation', function(){
+it('Retrieve Quotation', function(){
 
-//      //need to recheck
-//       cy.get('#email').type('sheetalbambarde@gmail.com')
-//       cy.get('#password').type('sheetal@123')
-//       cy.get(':nth-child(3) > .btn').click()
-//       cy.get('#ui-id-3').should('have.text','Retrieve Quotation').click()
-//       cy.get('form > [type="text"]').type('10022')   //invalid identification number
-//       cy.get('#getquote').click()
-//       cy.get('body > :nth-child(5)').should('have.text','Wrong Retrieve Quotation ID. Please Check...')
-//       cy.get('form > [type="text"]').type(ID)   //correct identification number
-//       cy.get('#getquote').click()
-//       cy.get('font').should('have.text','Retrieve Quotation')
+     //need to recheck
+      cy.get('#email').type('sheetalbambarde@gmail.com')
+      cy.get('#password').type('sheetal@123')
+      cy.get(':nth-child(3) > .btn').click()
+      cy.get('#ui-id-3').should('have.text','Retrieve Quotation').click()
+      cy.get('form > [type="text"]').type("21326")   //correct identification number
+      cy.get('#getquote').click()
+      cy.get('font').should('have.text','Retrieve Quotation')
+
+      // cy.get('form > [type="text"]').type('10022')   //invalid identification number
+      // cy.get('#getquote').click()
+      // cy.get('body > :nth-child(5)').should('have.text','Wrong Retrieve Quotation ID. Please Check...')
 
 
-//    })
+   })
 
    
 })
